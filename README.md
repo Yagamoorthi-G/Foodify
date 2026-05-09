@@ -81,16 +81,6 @@ Foodify/
 
 ---
 
-# Installation
-
-## Clone Repository
-
-```bash
-git clone https://github.com/Yagamoorthi-G/Foodify.git
-```
-
----
-
 # Backend Setup
 
 ```bash
