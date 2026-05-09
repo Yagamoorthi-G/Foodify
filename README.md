@@ -23,6 +23,13 @@ Foodify is a full-stack food ordering and delivery web application built using t
 * Add, edit, and delete food items
 * Manage incoming orders
 
+## Delivery Boy Features
+
+* User authentication and authorization
+* Can take/cancel order from shop once Ready
+* Overall delivery visualation
+* Delivery order with OTP verification
+
 ## Additional Features
 
 * JWT authentication
