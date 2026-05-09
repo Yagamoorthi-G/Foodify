@@ -1,0 +1,48 @@
+.myorders-page {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #F1F8F6;
+    display: flex;
+    justify-content: center;
+    padding: 32px 24px;
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+}
+
+.myorders-container {
+    width: 100%;
+    max-width: 800px;
+}
+
+.myorders-header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+.back-btn {
+    color: #00754A;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: transform 0.2s;
+}
+
+.back-btn:hover {
+    transform: translateX(-4px);
+}
+
+.myorders-header h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #1E3932;
+    margin: 0;
+}
+
+.orders-list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}

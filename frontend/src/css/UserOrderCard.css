@@ -1,0 +1,192 @@
+.uoc-wrapper {
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+    border: 1px solid #D4E9E2;
+    margin-bottom: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+.uoc-header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #F1F8F6;
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+}
+
+.uoc-order-id {
+    font-family: 'Poppins', sans-serif;
+    color: #1E3932;
+    margin: 0 0 4px 0;
+    font-size: 16px;
+}
+
+.uoc-date {
+    color: #666666;
+    margin: 0;
+    font-size: 14px;
+}
+
+.uoc-header-right {
+    text-align: right;
+}
+
+.uoc-payment-badge {
+    display: inline-block;
+    background-color: #F1F8F6;
+    color: #00754A;
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.uoc-payment-badge.online {
+    background-color: #00754A;
+    color: #FFFFFF;
+}
+
+.uoc-global-status {
+    color: #00754A;
+    font-weight: 600;
+    margin: 8px 0 0 0;
+    text-transform: capitalize;
+}
+
+.uoc-shop-section {
+    background-color: #FAFAFA;
+    border: 1px solid #D4E9E2;
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.uoc-shop-name {
+    font-family: 'Poppins', sans-serif;
+    color: #1E3932;
+    margin: 0 0 12px 0;
+    font-size: 15px;
+}
+
+.uoc-items-scroll {
+    display: flex;
+    gap: 16px;
+    overflow-x: auto;
+    padding-bottom: 12px;
+}
+
+.uoc-items-scroll::-webkit-scrollbar {
+    height: 6px;
+}
+.uoc-items-scroll::-webkit-scrollbar-thumb {
+    background: #D4E9E2;
+    border-radius: 4px;
+}
+
+.uoc-item-card {
+    flex-shrink: 0;
+    width: 140px;
+    background-color: #FFFFFF;
+    border: 1px solid #D4E9E2;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.uoc-item-card img {
+    width: 100%;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+.uoc-item-card h5 {
+    margin: 0 0 4px 0;
+    font-size: 13px;
+    color: #1E3932;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.uoc-item-card p {
+    margin: 0;
+    font-size: 12px;
+    color: #666666;
+}
+
+.uoc-rating {
+    display: flex;
+    gap: 4px;
+    margin-top: 8px;
+}
+
+.star-btn {
+    background: none;
+    border: none;
+    padding: 0;
+    font-size: 18px;
+    color: #D4E9E2;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.star-btn.filled {
+    color: #FFC107;
+}
+
+.uoc-shop-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #EEEEEE;
+    padding-top: 12px;
+    margin-top: 8px;
+}
+
+.uoc-subtotal {
+    font-weight: 600;
+    color: #333333;
+    margin: 0;
+}
+
+.uoc-shop-status {
+    color: #00754A;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.uoc-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px dashed #D4E9E2;
+    padding-top: 20px;
+}
+
+.uoc-total {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #1E3932;
+    margin: 0;
+}
+
+.btn-primary {
+    background-color: #00754A;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #1E3932;
+}

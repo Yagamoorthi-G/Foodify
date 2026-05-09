@@ -1,0 +1,101 @@
+.owner-item-card {
+    display: flex;
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+    border: 1px solid #D4E9E2;
+    overflow: hidden;
+    width: 100%;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    font-family: 'Inter', sans-serif;
+}
+
+.owner-item-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 16px rgba(0, 117, 74, 0.08);
+}
+
+.oic-image-container {
+    width: 140px;
+    flex-shrink: 0;
+    background-color: #FAFAFA;
+}
+
+.oic-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.oic-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 16px;
+    flex: 1;
+}
+
+.oic-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #1E3932;
+    margin: 0 0 8px 0;
+}
+
+.oic-details p {
+    margin: 0 0 4px 0;
+    font-size: 14px;
+    color: #333333;
+}
+
+.oic-details strong {
+    color: #1E3932;
+}
+
+.oic-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+
+.oic-price {
+    font-size: 18px;
+    font-weight: 700;
+    color: #00754A;
+}
+
+.oic-actions {
+    display: flex;
+    gap: 8px;
+}
+
+.oic-action-btn {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.edit-btn {
+    background-color: #F1F8F6;
+    color: #00754A;
+}
+
+.edit-btn:hover {
+    background-color: #D4E9E2;
+}
+
+.delete-btn {
+    background-color: #FFF0F0;
+    color: #E63946;
+}
+
+.delete-btn:hover {
+    background-color: #FFE4E4;
+}

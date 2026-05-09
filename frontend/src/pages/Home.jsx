@@ -1,0 +1,20 @@
+import React from 'react'
+import '../css/Home.css'
+import { useSelector } from 'react-redux'
+import UserDashboard from '../components/UserDashboard' // BUG FIXED
+import OwnerDashboard from '../components/OwnerDashboard'
+import DeliveryBoy from '../components/DeliveryBoy'
+
+function Home() {
+    const { userData } = useSelector(state => state.user)
+    
+  return (
+    <div className="home-container">
+      {userData?.role === "user" && <UserDashboard />}
+      {userData?.role === "owner" && <OwnerDashboard />}
+      {userData?.role === "deliveryBoy" && <DeliveryBoy />}
+    </div>
+  )
+}
+
+export default Home
